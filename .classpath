@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry excluding="views/**" kind="src" path="app"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jre8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_11"/>
 	<classpathentry kind="lib" path="F:/iclass/play_jdk8/framework/play-1.2.6-eb815be.jar" sourcepath="F:/iclass/play_jdk8/framework/src"/>
 	<classpathentry kind="lib" path="F:/iclass/market_play/lib/japid-0.9.5.1.jar"/>
 	<classpathentry kind="lib" path="F:/iclass/market_play/lib/japidplay-0.9.5.1.jar"/>
