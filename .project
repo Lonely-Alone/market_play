@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>market_play</name>
+	<name>weshop</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -15,4 +15,8 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.playframework.playclipse.playNature</nature>
 	</natures>
+	<linkedResources><link><name>japid-0.9.5</name><type>2</type><location>f:/iclass/play_jdk8/modules/japid-0.9.5/app</location></link>
+<link><name>conf/japid-0.9.5</name><type>2</type><location>f:/iclass/play_jdk8/modules/japid-0.9.5/conf</location></link>
+<link><name>docviewer</name><type>2</type><location>f:/iclass/play_jdk8/modules/docviewer/app</location></link>
+</linkedResources>
 </projectDescription>

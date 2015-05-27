@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+	<meta content="telephone=no" name="format-detection" />
+	<title>发布询价</title>
+	<link href="../../css/main.css" rel="stylesheet">
+</head>
+<body class="bgef">
+	<section class="inquiry_pro_info">
+		<div class="info_list"><input class="input pct90" type="text" placeholder="请输入产品名称"/></div>
+		<div class="info_list fix">
+			<span class="mt05 l">数量：</span>	
+			<span class="add_number r">
+				<a class="case"><i class="i i_delete"></i></a>    				
+    			<span class="case"><input class="num_input" id="amountInput" name="amount"  type="text" placeholder="1" value="1"/></span>
+    			<a class="case"><i class="i i_addnum"></i></a>
+			</span>	
+		</div>
+		<div class="info_list">
+			<textarea class="textarea" rows="3" placeholder="请输入宝贝描述：简单得介绍下你的需求。"></textarea>
+			<a class="add_pic vm" href="javascript:;"><span class="i_add">+</span></a>
+			<span class="ml1 g9">添加图片</span>
+		</div>	
+	</section>
+	<section class="inquiry_pro_info">
+		<a class="db info_list h20 fix" id="SelectBillBtn" href="javascript:;">
+			<span class="l">
+				<i class="mr05 i_15 i_in2 vn"></i>
+				发票要求
+			</span>	
+			<span class="g0 r">
+				无需发票
+				<i class="ml05 i i_arrow rotate90 vm"></i>
+			</span>	
+		</a>
+	</section>
+	<div id="billContBox" class="bill_cont dn">
+		<ul class="bill_list">
+			<li>
+				<a href="javascript:;">
+					<i class="mr05 i_20 i_sel vm"></i>
+					普通发票	
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<i class="mr05 i_20 i_sel_on vm"></i>	
+					增值税发票
+				</a>
+			</li>
+			<li>
+				<a href="javascript:;">
+					<i class="mr05 i_20 i_sel vm"></i>	
+					无需发票
+				</a>
+			</li>
+		</ul>
+	</div>
+	<section class="inquiry_pro_info">
+		<a class="db info_list lh26 fix" href="javascript:;">
+			<span class="l">
+				<i class="mr05 i_15 i_in3 vm"></i>
+				联系人
+			</span>	
+			<input class="tr input g0 r" type="text" />	
+		</a>
+		<a class="db info_list lh26 fix" href="javascript:;">
+			<span class="l">
+				<i class="mr05 i_15 i_in5 vm"></i>
+				联系电话
+			</span>	
+			<input class="tr input g0 r" type="text" />	
+		</a>
+	</section>
+	<section class="inquiry_pro_info">
+		<div class="info_list">
+			备注
+			<input class="input pct90" type="text"/>
+		</div>
+	</section>
+	<div class="mt2 mb1 tc">
+		<a class="redbtn bdrad3 pct60" href="javascript:;">发布</a>
+	</div>
+</body>
+<script src="../../js/min/jquery-1.8.3.js"></script>
+<script type="text/javascript">
+$('#SelectBillBtn').click(function(){
+	$('#billContBox').toggle();
+})
+</script>
+</html>

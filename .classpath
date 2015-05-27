@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
 	<classpathentry excluding="views/**" kind="src" path="app"/>
+	<classpathentry kind="src" path="japid-0.9.5"/>
+	<classpathentry kind="src" path="docviewer"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/jdk1.8.0_11"/>
 	<classpathentry kind="lib" path="F:/iclass/play_jdk8/framework/play-1.2.6-eb815be.jar" sourcepath="F:/iclass/play_jdk8/framework/src"/>
-	<classpathentry kind="lib" path="F:/iclass/market_play/lib/japid-0.9.5.1.jar"/>
-	<classpathentry kind="lib" path="F:/iclass/market_play/lib/japidplay-0.9.5.1.jar"/>
-	<classpathentry kind="lib" path="F:/iclass/market_play/lib/javaparser-1.0.8.jar"/>
+	<classpathentry kind="lib" path="E:/eclipse/workspace/market_play/lib/japid-0.9.5.1.jar"/>
+	<classpathentry kind="lib" path="E:/eclipse/workspace/market_play/lib/japidplay-0.9.5.1.jar"/>
+	<classpathentry kind="lib" path="E:/eclipse/workspace/market_play/lib/javaparser-1.0.8.jar"/>
+	<classpathentry kind="lib" path="F:/iclass/play_jdk8/modules/japid-0.9.5/lib/japid-0.9.5.1.jar"/>
+	<classpathentry kind="lib" path="F:/iclass/play_jdk8/modules/japid-0.9.5/lib/japidplay-0.9.5.1.jar"/>
+	<classpathentry kind="lib" path="F:/iclass/play_jdk8/modules/japid-0.9.5/lib/javaparser-1.0.8.jar"/>
 	<classpathentry kind="lib" path="F:/iclass/play_jdk8/framework/lib/activation-1.1.1.jar"/>
 	<classpathentry kind="lib" path="F:/iclass/play_jdk8/framework/lib/antlr-2.7.7.jar"/>
 	<classpathentry kind="lib" path="F:/iclass/play_jdk8/framework/lib/asm-5.0.1.jar"/>

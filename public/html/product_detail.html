@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1">
+<title>商品详情</title>
+<link rel="stylesheet" href="../css/main.css">
+</head>
+<body class="bgf9">
+<div id="proContPage" >
+<div class="content_page" style="padding-bottom:65px;">
+	<section class="mb1 product_show_area">
+    	<div class="f18 tc">
+            <p class="g0">ThinkPad X1 Carbon</p>
+            <p class="g0">第一款14英寸碳纤维超极本</p>
+            <p><img width="100%" height="130" src="../img/goods/dg1-1.jpg"/></p>
+            <div class="f16 fix">
+            	<div class="ml1 l">
+                	<p class="cf5">微信价：&yen; 688元</p>
+                    <p class="f14 g9 tdl">市场价：&yen; 888元</p>
+                </div>
+                <div class="mr1 r">
+                	<p class="cf5">销售88件</p>
+                    <p>库存：剩余10件</p>
+                </div>
+            </div>
+    	</div>
+    </section>
+	<section>
+    	<div class="mb1 product_show_area">
+        	<div class="p1">
+                <p class="f18">产品详细介绍</p> 
+                <p class="lh20">
+                    ThinkPad X1 Carbon配备了Intel新一代IVB核芯的酷睿i5-3427U，主频为1.7GHz，通过睿频可达2.8GHz，4GB DDR3-1600内存，128GB SSD固态硬盘，配备有HD 4000核芯显卡。全新的ThinkPad X1 Carbon超极本除了保留了以往ThinkPad经典元素以外，亮点是碳纤维材质的机身和最薄处8mm的超薄机身设计，此外IVB核芯处理器和超长的待机也是一直被大家关注的地方。
+                </p>
+            </div>
+        </div>
+        <div class="mb05 product_show_area">
+            <img width="100%" height="130" src="../img/goods/dg1-2.jpg"/>
+            <img width="100%" height="130" src="../img/goods/dg1-3.jpg"/>
+            <img width="100%" height="130" src="../img/goods/dg1-4.jpg"/>
+        </div>
+    </section>
+    <div id="shade" class="shadebg"></div>
+	<div id="container" class="container" style="display:none">
+		<div class="bbc p1 rel fix">
+	    	<img class="mr1 bdd1 l" width="60" height="60" src="../img/goods/g4.jpg"/>
+	        <div class="pro_cont">	  
+	            <p class="f16">ThinkStation S30</p>
+				<p class="pro_text">拥有强大图形处理能力的单路工作站拥有强大图形处理能力的单路工作站</p>
+				<p class="f14 g0">&yen;<span class="cf5"> 888</span></p>
+	        </div>
+	        <a href="#" class="closebtn"><i class="i_close"></i></a>
+    	</div>
+    	<div class="p1 bbc">
+    		<p>品牌:</p>
+    		<div class="selectedbox">
+    			联想
+    			<i class="i_selected"></i>
+    		</div>
+    	</div>
+    	<div class="p1 bbc">
+    		<p>型号:</p>
+    		<div class="selectedbox">
+    			S30
+    			<i class="i_selected"></i>
+    		</div>
+    	</div>
+    	<div class="p1 bbc fix">
+    		<span class="l">数量</span>
+    		<div class="r g0">
+    			剩余：90
+    			<span class="add_number">
+    				<a class="case b def g9">-</a>    				
+    				<span class="case">9</span>
+    				<a class="case b poi">+</a>
+    			</span>
+    		</div>
+    	</div>
+		<div class="p1 tc"><a href="#" class="orangebtn bdrad1">加入购物车</a></div>
+	</div>
+    <footer id="ShoppingFooter" class="footer tc">
+    	<a href="#" class="redbtn bdrad1 mr15">立即购买</a>
+    	<a href="#" id="addShoppingCart" class="orangebtn bdrad1">加入购物车</a>
+	</footer>
+</div>
+</div>
+<script src="../js/min/mootools.1.4.0.js"></script>
+<script type="text/javascript">
+$('addShoppingCart').addEvent('click',function(){
+	$('proContPage').setStyles({'overflow':'hidden','height':window.innerHeight+'px'});
+	$('shade').setStyles({'display':'block','height':window.innerHeight+'px'});
+	$('container').setStyle('display','block');
+	$('ShoppingFooter').setStyle('display','none');
+})
+</script>
+</body>
+</html>
