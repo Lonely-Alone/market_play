@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
+<<<<<<< HEAD
 	<name>weshop</name>
+=======
+	<name>market_play</name>
+>>>>>>> branch 'master' of https://github.com/Lonely-Alone/market_play.git
 	<comment></comment>
 	<projects>
 	</projects>
@@ -15,8 +19,12 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.playframework.playclipse.playNature</nature>
 	</natures>
+<<<<<<< HEAD
 	<linkedResources><link><name>japid-0.9.5</name><type>2</type><location>f:/iclass/play_jdk8/modules/japid-0.9.5/app</location></link>
 <link><name>conf/japid-0.9.5</name><type>2</type><location>f:/iclass/play_jdk8/modules/japid-0.9.5/conf</location></link>
 <link><name>docviewer</name><type>2</type><location>f:/iclass/play_jdk8/modules/docviewer/app</location></link>
+=======
+	<linkedResources><link><name>docviewer</name><type>2</type><location>D:/forJob/play_jdk8/modules/docviewer/app</location></link>
+>>>>>>> branch 'master' of https://github.com/Lonely-Alone/market_play.git
 </linkedResources>
 </projectDescription>
