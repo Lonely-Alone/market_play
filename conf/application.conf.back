@@ -1,4 +1,4 @@
-application.name=weshop
+application.name=market_play
 application.mode=dev
 application.secret=4X7m2mKGwrosYEMaoy2CEdl0a62mg5XPVLQJI3xyhLpFGuBSwktllFwXHCsQLR55
 date.format=yyyy-MM-dd HH:mm:ss
@@ -11,7 +11,7 @@ application.log.path=/log4j.properties
 application.log.system.out=off
 
 # Database configuration
-db.url=jdbc:mysql://localhost:3306/weshop?useUnicode=true&characterEncoding=utf8
+db.url=jdbc:mysql://localhost:3306/market_play?useUnicode=true&characterEncoding=utf8
 db.driver=com.mysql.jdbc.Driver
 db.user=root
 db.pass=123

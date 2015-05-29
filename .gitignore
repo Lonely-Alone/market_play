@@ -67,3 +67,8 @@ testrunner/*
 /.pmd
 .externalToolBuilders/ch.acanda.eclipse.pmd.builder.PMDBuilder.launch
 
+# everyone should keep their own conf files
+conf/application.conf
+cobertura.*
+commit.txt
+
